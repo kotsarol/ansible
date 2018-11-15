@@ -1,4 +1,5 @@
-- name: Heloo
+- name: Helo
+  hosts: all
   tasks:
     - name: Ping
       ping:
