@@ -1,6 +1,4 @@
-- name: Hello World Sample
-  hosts: all
+- name: Heloo
   tasks:
-    - name: Hello Message
-      debug:
-        msg: "Hello Oleg!"
+    - name: Ping
+      ping:
