@@ -1,5 +1,5 @@
-- name: Helo
+- name: Test project
   hosts: all
   tasks:
-    - name: Ping
-      ping:
+    - name: Show facts
+      setup:
